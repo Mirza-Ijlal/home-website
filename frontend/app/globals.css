@@ -1,0 +1,422 @@
+@import'bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+
+
+.mynavbar{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color:rgb(242, 245, 242);
+ 
+   
+
+}
+.rightsidenav{
+  display: flex;
+  margin-right:40px ;
+  
+}
+
+.mynavbar a{
+
+  text-decoration: none;
+  margin-left: 40PX;
+ 
+  color: rgb(41, 55, 41);;;
+  font-weight: 700;
+  
+}
+.brobtn{
+  background-color: rgb(41, 55, 41);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.drbtn{
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(0, 0, 0, 0.993);
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+
+  
+
+}
+.SLIDE{
+  width: 100%;
+  height: 1000px;
+  margin-top: -100px;
+  
+ 
+  
+}
+.hero{
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 120px;
+  
+}
+.facilities{
+  width: 100%;
+ position: relative;
+  background-color: rgb(244, 243, 242);
+  margin-top: -40px;
+  
+  
+}
+.imagef{
+  
+  display: flex;
+  justify-content: center;
+ 
+}
+.textf{
+  padding: 20px 0px;
+
+
+}
+
+.textf h1{
+  font-size: 40px;
+  font-weight: 500;
+
+
+}
+.textf p{
+  font-size: 22px;
+  padding-right: 20px;
+  
+
+
+}
+.TEXTP{
+position: absolute;
+
+
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.box2{
+  
+  margin-top: 60px;
+  
+}
+.mainimg{
+  display: block;
+  height: 492px;
+  width: 100%;
+}
+.explore-home{
+  background-image: url(./Images/BG\ ELEMENTS.jpg);
+  background-size: cover;
+  text-align: center;
+padding-bottom: 50px;
+  
+}
+.explore-home h1{
+  padding: 20px 0px;
+  color: white;
+
+}
+.buttonbox{
+  padding: 40px 0px;
+  text-align: center;
+}
+.buttonbox button {
+  
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  
+ 
+  
+
+}
+.buttonbox button:hover{
+  
+  background-color:rgb(121, 142, 121) ;
+ 
+  
+
+}
+.specification{
+  
+  width: 100%;
+  padding: 40px 40px;
+  
+}
+.mycard{
+  padding-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.mycard3{
+  padding-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+.mycard3 img{
+  height: 226px;
+  
+}
+.contectparent{
+  display: flex;
+  align-items: center;
+  
+}
+.content p{
+  padding: 10px 30px 0px 0px;
+  font-size: 22px;
+
+}
+.mycard h1{
+  font-size: 25px;
+}
+.mycard3 h1{
+  font-size: 25px;
+}
+.myfont{
+  display: flex;
+  
+}
+.myfont h1{
+  background-color: black;
+  margin-right: 10px;
+  font-size: 25px;
+  padding: 5px;
+  font-weight: 100px;
+  
+  
+
+  color: white;
+
+}
+.bifont{
+  font-size: 25px;
+}
+.downfont{
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.engnav{
+  background-color: aquamarine;
+}
+.amenities{
+  background-color: rgb(244, 243, 242);
+
+  padding: 40px 0px;
+  
+  
+  display: flex;
+  
+  display: flex;
+  justify-content: center ;
+
+  
+  
+
+}
+.amentiesimg{
+  
+  position: relative;
+  
+}
+.boxamen{
+  position: absolute;
+  
+}
+
+.playarea{
+  display: flex;
+  
+  margin: 36px 0px;
+}
+.playarea p{
+  font-size: 26px;
+  padding-top: 20px;
+  padding-left: 16px;
+}
+.contentamenparent{
+  display: flex;
+  align-items: center;
+}
+
+.textareaparent{
+  background-image: url(./Images/BG\ ELEMENTS.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.locationimg {
+  background-image: url(./Images/location.png);
+  background-size: cover;
+  height: 600px;
+
+}
+.parentimg{
+  padding: 0%;
+}
+
+.textarea{
+  padding: 150px;
+}
+.textarea h1{
+  color: white;
+ font-size: 50px;
+ padding-bottom: 20px;
+
+}
+
+.textarea p{
+  color: white;
+  font-size: 23px;
+  
+}
+
+.mysubmitbtn{
+  background-color: rgb(99, 97, 97);
+  border-radius: none;
+  padding: 20px 70px;
+  color: white;
+  border: none;
+}
+
+.inputname{
+
+  width: 339px;
+  height: 55px;
+  
+  padding: 8px, 8px, 8px, 16px;
+  gap: 12px;
+  border: 2px solid rgb(198, 195, 195);
+  padding-left: 10px;
+  
+
+
+}
+
+.inputemail{
+
+  width: 339px;
+  height: 55px;
+  
+  padding: 8px, 8px, 8px, 16px;
+  gap: 12px;
+  border: 2px solid rgb(198, 195, 195);
+  margin-left: 22px;
+  padding-left: 10px;
+
+
+
+}
+.inputnumber{
+
+  width: 700px;
+  height: 55px;
+  
+  padding: 8px, 8px, 8px, 16px;
+  gap: 12px;
+  border: 2px solid rgb(198, 195, 195);
+ padding-left: 10px;
+
+
+
+}
+.myform{
+  padding: 40px 0px;
+
+}
+.formtext{
+  font-size: 20px;
+}
+.myfooter{
+  background-image: url(./Images/BG\ ELEMENTS.jpg);
+  background-size: COVER;
+  padding: 50px 0px;
+
+}
+.fbox1{
+  text-align: center;
+  margin-right: 90px;
+}
+.fbox1 p{
+  color: white;
+
+}
+.fbox2 p{
+  color: white;
+
+}
+.fbox3 {
+  text-align: center;
+  
+}
+.fbox3 p{
+  color: white;
+}
+.fbox3 h1{
+  color: white;
+  
+
+}
+.ficons{
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.ficons h1{
+  margin:10px ;
+  
+
+}
+
+@media (max-width: 900px) {
+  .textf p {
+    font-size: 13px;
+    padding-right: 20px;
+
+  }
+    .hero {
+      position: absolute;
+      z-index: 1;
+      top: 17px;
+      left: 111px;
+  }
+
+
+  .SLIDE {
+    width: 100%;
+    height: 708px;
+    margin-top: -100px;
+}
+.textf h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.mainimg {
+  display: block;
+  height: 349px;
+  width: 100%;
+}
+.box2 {
+  margin-top: 116px;
+}
+}
